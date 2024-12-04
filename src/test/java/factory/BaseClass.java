@@ -1,10 +1,20 @@
 package factory;
 
+import java.awt.AWTException;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.image.BufferedImage;
+import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
+
+import javax.imageio.ImageIO;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -59,6 +69,20 @@ public class BaseClass {
 		Properties p = new Properties();
 		p.load(file);
 		return p;
+	}
+	
+	public static BufferedImage screenShot() throws AWTException, IOException {
+
+		Robot r = new Robot();
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		Rectangle rectangle = new Rectangle(screenSize);
+		BufferedImage source = r.createScreenCapture(rectangle);
+		String path = System.getProperty("user.dir")+"\\screenshots\\errorScreenshot.png"+System.currentTimeMillis()+".png";
+		File destination = new File(path);
+		ImageIO.write(source, "png", destination);
+
+		return source;
+
 	}
 
 	public static Logger getlogger() {

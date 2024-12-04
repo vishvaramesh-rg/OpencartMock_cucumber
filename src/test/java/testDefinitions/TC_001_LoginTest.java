@@ -25,11 +25,12 @@ public class TC_001_LoginTest {
 		lp=new LoginPage(BaseClass.getDriver());
 		p = BaseClass.getproperties();
 		gl = BaseClass.getlogger();
-		gl.info("***login execution started***");
+		gl.info("***TC_001_LoginTest started***");
 		gl.debug("Application log started");
 
 		map.clickMyaccount();
 		map.clickLogin();
+		gl.info("Entered into login page");
 	}
 
 	@When("user enters the valid username and password")
@@ -58,7 +59,16 @@ public class TC_001_LoginTest {
 		}
 		
 		gl.debug("Application log ended");
-		gl.info("***login execution ended***");
+		gl.info("***TC_001_LoginTest ended***");
+	}
+	
+	//in the same feature with passing 2 user credentials checkout loginTest.feature
+	
+	@When("user enters the {string} and {string}")
+	public void user_enters_the_and(String username1, String password1) {
+	    lp.setUsername(username1);
+	    lp.setPassword(password1);
+	    gl.info("User credentials are passed");
 	}
 
 }

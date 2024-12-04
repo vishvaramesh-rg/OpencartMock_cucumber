@@ -9,7 +9,11 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 
 
+		//features = {".//Features/LoginDDT.feature"},
 		features = {".//Features/loginTest.feature"},
+		//features = {".//Features/registrationTestUsingTable.feature"},
+		//features = {".//Features/registrationTest.feature"},
+		//features = {".//Features/registrationTestUsingTable.feature",".//Features/loginTest.feature"},
 		glue="testDefinitions",
 		dryRun = false,
 		plugin = { "pretty", "html:reports/myreport.html",
@@ -18,7 +22,7 @@ import io.cucumber.junit.CucumberOptions;
 		},
 
 		monochrome = true, //to avoid the junk
-		publish=false //to publish the report in cucumber server
+		publish=true //to publish the report in cucumber server
 		
 		//tags="@sanity"
 		)

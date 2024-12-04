@@ -1,0 +1,67 @@
+22:34:03.150 [main] INFO  factory.BaseClass - Enters into registration page
+22:34:05.313 [main] INFO  factory.BaseClass - User details are passed
+22:34:06.083 [main] INFO  factory.BaseClass - Clicked the submit button
+23:35:23.836 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:35:24.177 [main] INFO  factory.BaseClass - Entered into login page
+23:35:27.843 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:35:28.168 [main] INFO  factory.BaseClass - Entered into login page
+23:35:31.768 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:35:32.127 [main] INFO  factory.BaseClass - Entered into login page
+23:36:40.850 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:36:41.203 [main] INFO  factory.BaseClass - Entered into login page
+23:36:45.012 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:36:45.338 [main] INFO  factory.BaseClass - Entered into login page
+23:41:53.451 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:41:53.800 [main] INFO  factory.BaseClass - Entered into login page
+23:41:57.470 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:41:57.777 [main] INFO  factory.BaseClass - Entered into login page
+23:42:01.377 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:42:01.718 [main] INFO  factory.BaseClass - Entered into login page
+23:42:05.319 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:42:05.663 [main] INFO  factory.BaseClass - Entered into login page
+23:44:34.201 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:44:34.532 [main] INFO  factory.BaseClass - Entered into login page
+23:44:35.480 [main] INFO  factory.BaseClass - Credentials are passed successfully
+23:44:55.734 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:44:56.062 [main] INFO  factory.BaseClass - Entered into login page
+23:44:59.778 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:45:00.077 [main] INFO  factory.BaseClass - Entered into login page
+23:45:00.344 [main] INFO  factory.BaseClass - Credentials are passed successfully
+23:45:20.477 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:45:20.815 [main] INFO  factory.BaseClass - Entered into login page
+23:47:41.785 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:47:42.127 [main] INFO  factory.BaseClass - Entered into login page
+23:47:42.937 [main] INFO  factory.BaseClass - Credentials are passed successfully
+23:48:03.071 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:48:03.381 [main] INFO  factory.BaseClass - Entered into login page
+23:48:07.136 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:48:07.443 [main] INFO  factory.BaseClass - Entered into login page
+23:48:07.712 [main] INFO  factory.BaseClass - Credentials are passed successfully
+23:48:27.950 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+23:48:28.270 [main] INFO  factory.BaseClass - Entered into login page
+09:00:53.141 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:00:53.617 [main] INFO  factory.BaseClass - Entered into login page
+09:00:54.962 [main] INFO  factory.BaseClass - Credentials are passed successfully
+09:01:16.588 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:01:17.117 [main] INFO  factory.BaseClass - Entered into login page
+09:01:22.063 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:01:22.654 [main] INFO  factory.BaseClass - Entered into login page
+09:01:22.996 [main] INFO  factory.BaseClass - Credentials are passed successfully
+09:01:42.712 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:01:43.219 [main] INFO  factory.BaseClass - Entered into login page
+09:03:56.415 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:03:57.047 [main] INFO  factory.BaseClass - Entered into login page
+09:03:58.238 [main] INFO  factory.BaseClass - Credentials are passed successfully
+09:04:19.591 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:04:20.116 [main] INFO  factory.BaseClass - Entered into login page
+09:04:24.932 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:04:25.436 [main] INFO  factory.BaseClass - Entered into login page
+09:04:25.811 [main] INFO  factory.BaseClass - Credentials are passed successfully
+09:04:48.229 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:04:48.789 [main] INFO  factory.BaseClass - Entered into login page
+09:24:03.735 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:24:04.666 [main] INFO  factory.BaseClass - Entered into login page
+09:24:06.192 [main] INFO  factory.BaseClass - Credentials are passed successfully
+09:24:28.130 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***
+09:24:28.672 [main] INFO  factory.BaseClass - Entered into login page
+09:24:34.153 [main] INFO  factory.BaseClass - ***TC_004_LoginDDT started***

@@ -10,6 +10,7 @@ import org.openqa.selenium.WebDriver;
 
 import factory.BaseClass;
 import io.cucumber.java.After;
+import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 
@@ -32,7 +33,8 @@ public class Hooks {
 		Thread.sleep(2000);
 		driver.close();
 	}
-
+	
+	@AfterStep
 	public void screenshot(Scenario scenario) {
 		if(scenario.isFailed()) {
 			TakesScreenshot tk = (TakesScreenshot) driver;
